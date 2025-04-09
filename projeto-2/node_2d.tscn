@@ -16,7 +16,7 @@ offset_bottom = 651.0
 color = Color(0.431373, 0.921569, 0.929412, 1)
 
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
-position = Vector2(121, 13)
+position = Vector2(123, 17)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
 position = Vector2(550, 54)
@@ -27,6 +27,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.605158, 0.646636, 0.85321, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D3" type="RigidBody2D" parent="."]
@@ -41,6 +42,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.388235, 0.662745, 0.690196, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D4" type="RigidBody2D" parent="."]
@@ -55,6 +57,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.319913, 0.372947, 0.639382, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D5" type="RigidBody2D" parent="."]
@@ -69,6 +72,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.888818, 0.913347, 0.497721, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D6" type="RigidBody2D" parent="."]
@@ -83,6 +87,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.918797, 0.883273, 0.71367, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D7" type="RigidBody2D" parent="."]
@@ -97,20 +102,22 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.619839, 0.543898, 0.136907, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D8" type="RigidBody2D" parent="."]
 position = Vector2(22, -288)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D8"]
-position = Vector2(550, 54)
+position = Vector2(854, 148)
 shape = SubResource("RectangleShape2D_y32ns")
 
 [node name="ColorRect" type="ColorRect" parent="RigidBody2D8/CollisionShape2D"]
-offset_left = -32.0
+offset_left = -34.0
 offset_top = -32.0
-offset_right = 32.0
+offset_right = 30.0
 offset_bottom = 32.0
+color = Color(0.87531, 0.514911, 0.772727, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D9" type="RigidBody2D" parent="."]
@@ -125,6 +132,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.885399, 0.71749, 0.446597, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D10" type="RigidBody2D" parent="."]
@@ -139,6 +147,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.632855, 0.931358, 0.526089, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D11" type="RigidBody2D" parent="."]
@@ -153,6 +162,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(1, 0.640623, 0.606844, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="RigidBody2D2" type="RigidBody2D" parent="."]
@@ -166,6 +176,7 @@ offset_left = -32.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 32.0
+color = Color(0.965136, 0.820046, 0.802835, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
